@@ -27,10 +27,6 @@ h3 {
     color: #252525;
 }
 
-.hidden-heading {
-    display: none;
-}
-
 /* Header */
 header {
     background-color: #ffffff;
@@ -221,6 +217,7 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -286,7 +283,6 @@ main {
     #photos {
         column-count: 3;
     }
-
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -295,6 +291,7 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* Gallery */
     #photos {
         column-count: 4;
     }
